@@ -1,0 +1,37 @@
+<html>
+<head>
+  <script>
+  function round()
+  {
+    var a= document.getElementById("demo").value;
+  document.getElementById("demo").value= Math.round(a);
+
+}
+function ceil()
+{
+  var a= document.getElementById("d").value;
+  document.getElementById("d").value = Math.ceil(a);
+}
+function turnic()
+{
+    var a= document.getElementById("de").value;
+  document.getElementById("de").innerHTML = Math.trunc(a);
+}
+</script></head>
+  <body>
+    <center>
+
+
+<label ><b>Math.round()</b></label>
+<input type="text" id="demo">
+<button type="button" onclick="round()" > try it</button><br><br><br>
+<label ><b>Math.ceil()</b></label>
+<input type="text" id="d">
+<button type="button" onclick="ceil()"> try it</button><br><br><br>
+<label><b>math.trunc()</b></label>
+<input type="text" id="de">
+<button type="button" onclick="trunc()"> try it</button><br><br><br>
+</center>
+</body>
+
+</html>
