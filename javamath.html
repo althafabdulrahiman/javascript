@@ -1,0 +1,37 @@
+<html>
+<head>
+<script>
+function round()
+  {
+var a=document.getElementById("a").value;
+var b=document.getElementById("b").value;
+  document.getElementById("ro").innerHTML= Math.round(a);
+  document.getElementById("ce").innerHTML= Math.ceil(a);
+  document.getElementById("fl").innerHTML= Math.floor(a);
+  document.getElementById("tr").innerHTML= Math.trunc(a);
+  document.getElementById("si").innerHTML= Math.sign(a);
+  document.getElementById("po").innerHTML=Math.pow(a,b);
+  document.getElementById("sq").innerHTML= Math.sqrt(a);
+  document.getElementById("ab").innerHTML= Math.abs(a);
+
+}</script>
+</head>
+<body bgcolor="red">
+<center>
+<labe>enter fitst value</label>
+    <input type="text" id="a" ><br><br><br>
+<label>enter second value</label>
+    <input type="text" id="b"><br><br><br>
+    <button type="button" onclick="round()" > try it</button><br><br>
+<label>rounded value:</label><label  id="ro">  </label><br><br><br>
+<label>ceil value:</label><label id="ce"> </label><br><br><br>
+<label>floor value:</label><label id="fl"> </label><br><br><br>
+<label>trunc value:</label><label id="tr"> </label><br><br><br>
+<label>sign value:</label><label id="si"> </label><br><br><br>
+<label>power value:</label><label id="po"> </label><br><br><br>
+<label>sqrt value:</label><label id="sq"> </label><br><br><br>
+<label>abs value:</label><label id="ab"> </label><br><br><br>
+
+    </center>
+    </body>
+    </html>
